@@ -9,6 +9,10 @@ Windows Checksum Verifier is a PowerShell script designed to validate the integr
     - To verify your PowerShell version, execute `$PSVersionTable.PSVersion` in the PowerShell terminal.
     - Most systems will already have this version or a later one installed.
 
+### Download
+- Navigate to the green "<> Code" button and choose "Download ZIP".
+- Once downloaded, simple extract the files into a folder.
+
 ### Instructions
 1. Launch the script
     - Option 1: Double-click the `Start.bat` file.

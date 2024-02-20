@@ -42,9 +42,9 @@ Write-Host "Expected Checksum: $expectedChecksum" -ForegroundColor Cyan
 
 # Compare the checksums
 if ($actualChecksum -eq $expectedChecksum) {
-	Write-Host "-> Checksums match! The file has not been modified." -ForegroundColor Green
+    Write-Host "-> Checksums match! The file has not been modified." -ForegroundColor Green
 } else {
-	Write-Host "-> Checksums do NOT match! Please make sure you chose the correct algorithm and if so, do not trust this file!" -ForegroundColor Red
+    Write-Host "-> Checksums do NOT match! Please make sure you chose the correct algorithm and if so, do not trust this file!" -ForegroundColor Red
 }
 
 # Keep the terminal open
