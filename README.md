@@ -19,7 +19,7 @@ Windows Checksum Verifier is a PowerShell script designed to validate the integr
     - Option 2: Right-click the `WindowsChecksumVerifier.ps1` file and select "Run with PowerShell".
 2. When prompted, input the expected checksum algorithm.
     - This information is typically provided by the source of the file you're verifying.
-    - If no information is provided, it is probably "SHA256" as this is widely used as the default.
+    - If no information is provided, it probably is "SHA256" as this is widely used as the default.
 3. When prompted, input the expected checksum hash.
     - This is the unique string provided by the file's source.
 4. A Windows Explorer window will open for you to select the file to verify.
